@@ -10,5 +10,5 @@ function getAverage(marks) {
         sum += marks[i];
     }
     average = sum / marks.length;
-    return Math.round(average);
+    return Math.floor(average);
 }
