@@ -5,9 +5,10 @@ Examples(Input -> Output)
 15 -> 7(because odd numbers below 15 are[1, 3, 5, 7, 9, 11, 13])
 Expect large Inputs! */
 function oddCount(n) {
-    let count = Math.floor(n / 2);
-    for (let i = count * 2 + 1; i < n; i += 2) {
-        count += 1;
-    }
-    return count;
+    return Math.floor(n / 2);
+    // let count = Math.floor(n / 2);
+    // for (let i = count * 2 + 1; i < n; i += 2) {
+    //     count += 1;
+    // }
+    // return count;
 }
