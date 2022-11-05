@@ -4,6 +4,6 @@ I created this function to add five to any number that was passed in to it and r
 
 Can you help me fix the function?*/
 function addFive(num) {
-    var total = num + 5
+    let total = num + 5
     return total
 }
