@@ -5,4 +5,8 @@ function automorphic(n) {
   return Number(result) === n ? "Automorphic" : "Not!!"
 }
 
+// function automorphic(n) {
+//   return String(n * n).endsWith(String(n)) ? "Automorphic" : "Not!!"
+// }
+
 automorphic(6)
